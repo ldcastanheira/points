@@ -1,0 +1,17 @@
+
+# LUA
+bld = Builder(action = 'make -f $SOURCE')
+
+env = Environment(BUILDERS = {'Lua' : bld})
+env.Lua('Makefile.lua')
+
+# C
+
+# libs section
+SConscript(['clibs/cli/SConstruct'])
+
+
+env = Environment(CPPPATH = ['clibs/cli'])
+env.Program('points', ['main.c'], LIBS=['cli', 'lua5.1', 'm', 'readline'], 
+							LIBPATH=['clibs/cli'], CCFLAGS='-Wall -g')
+

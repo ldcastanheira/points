@@ -1,0 +1,76 @@
+
+-- Task closed before the view start.
+["beforestart"]= {
+	assigned = "leonardo",
+	severity = "feature",
+	priority = 1,
+	desc = "Task closed before view start",
+	opendate = "2013-01-01",
+	closeddate = "2013-01-01",
+},
+
+-- Task with no effort
+["noeffort"] = {
+	assigned = "leonardo",
+	severity = "bug",
+	priority = 0,
+	desc = "Warning 1",
+	opendate = "2013-01-01",
+},
+
+-- Task with no assigned
+["noassigned"] = {
+	severity = "bug",
+	priority = 0,
+	desc = "Warning 2",
+	opendate = "2013-01-01",
+},
+
+-- Task with no severity
+["noseverity"] = {
+	assigned = "leonardo",
+	priority = 0,
+	desc = "Warning 2",
+	opendate = "2013-01-01",
+},
+
+-- Task with no priority
+["nopriority"] = {
+	assigned = "leonardo",
+	severity = "bug",
+	desc = "Warning 3",
+	opendate = "2013-01-01",
+},
+
+-- Task with no desc
+["nodesc"] = {
+	assigned = "leonardo",
+	severity = "bug",
+	priority = 0,
+	opendate = "2013-01-01",
+},
+
+-- Task with no opendate
+["noopendate"] = {
+	assigned = "leonardo",
+	severity = "bug",
+	priority = 0,
+	desc = "Warning 1",
+	closeddate = "2013-01-02",
+},
+
+-- Task that will be ignored
+["ignored"]= {
+	assigned = "leonardo",
+	severity = "feature",
+	priority = 1,
+	desc = "No warn",
+	opendate = "2013-01-01",
+},
+
+["brokenlink"] = {
+	attach = "lost",
+	desc = "Task of group lost",
+	template = "task3",
+},
+

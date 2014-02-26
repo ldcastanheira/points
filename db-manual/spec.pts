@@ -1,0 +1,35 @@
+
+files = {
+	config = "config.pts",
+	tasks = {
+		"tasks-ok.pts",
+		"tasks-discarded.pts",
+		"effort.pts",
+	}
+},
+
+projects = {
+	manual = { 
+		name = "Points' manual",
+		rule = function(t) return true end,
+		views = {
+			["start"] = {
+				team = {
+					leonardo = 1, 
+				},
+				today = "2013-01-20",
+				start = "2013-01-01",
+				deadline = "2013-06-01",
+				planned   = {file = "planned.pts", points = 50},
+				unplanned = {file = "unplanned.pts", rate = 0.5},
+			},
+		},
+	},
+},
+
+vacations = {
+	castanheira = {
+		{"2012-10-15", "2012-10-30"},
+	},
+}
+

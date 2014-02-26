@@ -1,0 +1,58 @@
+
+= Importação =
+
+- Importa tarefas do bugzilla e relatório de verificação
+- Permite importar pontos direto das das fontes
+- Permite fontes personalizadas, o que permite ao usuário planejar tarefa sem
+  ter que abrir no bugzilla ou relatório de verificação. No futuro, quando bug
+  é aberto, não há problema em substituir a tarefa pelo bug.
+- Depois de importada, a tarefa é considerada uma tarefa nativa da ferramenta,
+  sem haver destinça. Isto permite aplicar todas as facilidades da ferramenta a
+  todas as tarefas.
+- Total flexibilidade na definição das tarefas que compoem um projeto
+- Classificação de prioridade automática a partir do bugzilla e rel de verificação
+
+= Uso =
+- Seu uso é pensado para ser simples, mas com todas as visões necessárias.
+- Todo contexto é sensitivo, é possível ver o conjunto de tarefas que compõe cada contexto.
+- Permite descriminar as tarefas de um bug (sub tarefa). A tarefa pai fica com a soma dos pontos.
+- Permite tarefas ou sub tarefas para incoporar a visualização de um conjunto de tarefas (tarefas links)
+- Integração entre os usuários
+- Uso de visões, cada projeto pode ter mais de uma visão.
+- Permite planejamento de tarefas com confirmação. Se a tarefa é fechada, um
+  warning é mostrado pedido confirmação da tarefa.
+- One way, nenhuma informação de outra ferramenta é atualizada a partir dele.
+  Não há como interferir nas ferramentas com sua utilização. Também não requer
+  nenhum tipo de campo especial em nenhuma delas.
+
+= Informações de andamento (gráficos) =
+- Pontos de fechados por semana (por equipe ou por desenvolvedor)
+- Comparação entre o que se esperado de pontos fechados do desenvolvedor e o que ele vem fechando
+- Tarefas a serem feitas separadas por prioridades com informação de custos em dias, tipo, data de início, data de fim, percentual sobre o total de esforço.
+- Carga de alocação de cada usuário, com custo em dias e data final
+- Percentual de cada tipo de tarefa (verificação, feature, etc)
+- Andamento do scopo, com informações para tarefas planejadas, não planejadas e total.
+- Referência de velocidade para fechamento de tarefas e utilização do buffer.
+- Informação de total de pontos, pontos planejados e pontos não planejados e
+  para cada um, informação de tarefas fechadas, todas as tarefas, tarefas
+  abertas e referência de velocidade.
+- Para TODOS os itens acima, o contexto é sensitivo. É possível ver todas as
+  tarefas que compoem cada item.
+- Para TODOS os dados acima é considerado período de férias ou afastamento de
+  desenvolvedores.
+
+= Planejamento =
+
+- Permite dar uma data de entrada do desenvolvedor ou saída
+- Não é necessário planejar todos os sprints para planejar
+- Permite reserva de buffer para tarefas não planejadas
+- Adicionar novos usuários ou trocar a sua pontução é simples.
+- Permite o uso de diferentes visões com pontuações diferentes para o time
+- É possível ignorar tarefas específicas.
+- Não guarda histórico, o que permite sem problemas correções sem causar
+  nenhuma perturbação nos dados.
+- Para TODOS os itens acima, o contexto é sensitivo. É possível ver todas as
+  tarefas que compoem cada item.
+- Para TODOS os dados acima é considerado período de férias ou afastamento de
+  desenvolvedores.
+

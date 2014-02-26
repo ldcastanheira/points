@@ -1,0 +1,17 @@
+
+-- bug9 is my reference to point bugs (around 1 hour)
+-- 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, …
+
+["task1"] = {effort = 21},
+["task2"] = {effort = 21},
+["task3"] = {effort = 2},
+
+["noseverity"]    = {effort = 1},
+["noopendate"]    = {effort = 1},
+["nochangeddate"] = {effort = 1},
+["nostatus"]      = {effort = 1},
+["nodesc"]        = {effort = 1},
+["nopriority"]    = {effort = 1},
+["noassigned"]    = {effort = 1},
+["ignored"]       = {effort = 1},
+

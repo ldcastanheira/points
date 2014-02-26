@@ -1,0 +1,10 @@
+
+.ptshistory
+*.a
+src/.sconsign.dblite
+src/points-module.lua
+src/points
+
+dm8xx
+reports
+_*

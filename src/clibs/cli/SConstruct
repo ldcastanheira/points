@@ -1,0 +1,2 @@
+Library('cli', ['cli.c'], CCFLAGS='-Wall -g')
+

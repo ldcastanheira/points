@@ -1,0 +1,38 @@
+
+-- Task1
+-- Task open before the view start and it still open. 
+["task1"] = {
+	assigned = "leonardo",
+	severity = "bug",
+	priority = 0,
+	desc = "Task 1",
+	opendate = "2013-01-01",
+},
+-- Task2
+-- Task open before the view start but closed inside the period
+["task2"] = {
+	assigned = "leonardo",
+	severity = "bug",
+	priority = 0,
+	desc = "Task 2",
+	opendate = "2013-01-01",
+	closeddate = "2013-01-01",
+},
+-- Task3
+-- Task group.
+["task3"] = {
+	assigned = "leonardo",
+	severity = "feature",
+	priority = 1,
+	desc = "Task 3",
+	opendate = "2013-01-01",
+},
+-- Task of group task3
+-- Normally a leaf task is also a "copy" of a group task, so the leaf task use
+-- the group taskalso as a template.
+["task3-1"] = {
+	attach = "task3",
+	desc = "Task of group task3",
+	template = "task3",
+},
+

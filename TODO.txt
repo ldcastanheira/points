@@ -1,0 +1,6 @@
+
+- manter a tabela private do tasks.lua?
+- remover os testes adicionais das funções effort e points do tasks.lua
+- implementar check do arquivo de config
+- adicionar a view um campo "freeze" com a data de congelamento. Se existir uma data, aplicar ao TODAY.
+

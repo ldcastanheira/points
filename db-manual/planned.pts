@@ -1,0 +1,17 @@
+
+["task1"]         = {},
+["task3"]         = {},
+["task3-1"]       = {},
+
+-- tasks with fields missing
+["noseverity"]    = {},
+["noopendate"]    = {},
+["nochangeddate"] = {},
+["nostatus"]      = {},
+["nodesc"]        = {},
+["nopriority"]    = {},
+["noassigned"]    = {},
+["noeffort"]      = {},
+
+["planned-worthless"]     = {},
+["ignored"]               = {ignore=true, reason="it's a ignored example task"},
