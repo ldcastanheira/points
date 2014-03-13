@@ -112,14 +112,16 @@ Compilação e Execução
 
 No diretório de desenvolvimento fazer
 
-cd src
-scons
+``
+$ cd src
+$ scons
+``
 
 Será gerado o módulo lua _points-module.lua_ e o binário _points_. O binário
 _points_ ao executar precisa encontrar o módulo lua. Isto é feito através da
 variável de ambiente _PTSPATH_ que pode ser adicionada ao .bashrc. Exemplo:
 
-export PTSPATH=$HOME/points
+$ export PTSPATH=$HOME/points
 
 # Rodando em modo de desenvolvimento
 
@@ -154,7 +156,7 @@ par de arquivos para cada projeto.
 O primeiro passo é carregar o database.
 
 ``
->> load db-manual/spec.pts
+$ load db-manual/spec.pts
 ``
 
 Algums mensagens de warning irão surgir. Nos seus projetos, estes warnings
