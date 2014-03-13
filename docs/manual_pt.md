@@ -768,22 +768,3 @@ congelar o estado do projeto. Exemplo:
 
 	today = "2013-01-20",
 
-TODO
-# Worthonly
-
-worthonly é uma flag na tabela de **planned** ou **unplanned** que evita que o aviso 
-
--> worthonly
--> escrevendo funções complexas para o rule
-
-Recursos do arquivo de tarefas
-============================
--> concatenação
--> template
--> group
-
-
-Configurando o Points
-============================
-
-
